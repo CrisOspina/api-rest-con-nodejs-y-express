@@ -1,0 +1,19 @@
+{
+  "name": "rest-api-nodejs-mysql",
+  "version": "1.0.0",
+  "description": "api rest express y mysql",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Cristian Ospina",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
