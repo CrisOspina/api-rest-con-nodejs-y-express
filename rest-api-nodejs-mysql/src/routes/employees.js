@@ -43,7 +43,7 @@ router.post('/', (req, res) => {
    })
 })
 
-//ruta para insertar registros
+//ruta para actualizar registros
 router.put('/:id', (req, res) => {
    const { name, salary} = req.body
    const {id} = req.params
